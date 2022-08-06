@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border : 10px solid black;
+}
+
+/* keadaan awal */
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: margin-left 1s;
+}
+
+
+/* keadaan akhir */
+.container:hover .kotak {
+    transform : rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;   
+}

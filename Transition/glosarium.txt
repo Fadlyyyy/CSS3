@@ -1,0 +1,71 @@
+definisi dari transition :
+
+Properti Transition memungkinkan kita dapat mengubah nilai
+dari property HTML secara halus
+
+Perbedaan antara Transition VS Animation
+
+kedua hal ini mirip namun yang membedakan hanyalah keaadann
+awal dan keadaan akhirnya
+
+Transition adalah elemen kotak bergerak dari keadaan awal ke keaadaan akhir 
+pergerakannya dinamakan animasi namun properti cssnya dinamakan transisi
+
+
+animasi adalah elemen kotak yang bergerak dari keadaan awal dan keadaan yang
+diantaranya dinamakan keyframe.
+
+keyframe yang bisa ditambahkan itu banyak sehingga kita jadi punya
+beberapa keadaan antara.
+
+itulah yang membedakan antara transition dan Animation.
+
+transition
+
+[Property] <durasi> [Fungsi] [delay] ;
+mempunyai 4 buah parameter yang bisa ditulis, dari ke 4 parameter
+ada 1 parameter wajib yang ditulis yaitu adalah <durasi>
+
+properti sisanya adalah properti opsional (boleh ditulis boleh tidak )
+
+durasi
+
+bisa diisi dengan angka dan angka tersebut memiliki satuan s / ms
+durasi ini artinya pada saat ingin merubah keadaan awal ke keadaan akhir
+durasinya ingin berapa lama.
+
+
+property
+
+property menentukan properti apa saja yang akan dilakukan transisi.
+bisa saja lebih dari 1 properti atau hanya 1 saja yang ingin diberi transisi.
+
+
+property
+-all
+<nama property>
+-none
+
+
+animatable properties (properti apa saja yang bisa kita ubah secara halus)
+1.background-color
+2.background-position
+3.background-size
+4.border
+5.color
+6.Filter
+7.font-size
+8.line height
+9.top, left, bottom dan right
+10. margin dan padding
+11.width dan height
+12.opacity
+13.transform
+14.word-spacing
+15.letter-spacing
+
+
+non-animatable properti (properti yang tidak bisa dianimasikan)
+1.font-family
+2.display
+3.position
