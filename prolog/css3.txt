@@ -1,0 +1,40 @@
+penjelasan css 3
+
+css 3 adalah generasi ke 3 dari spesifikasi css yang direkomendasikan oleh w3c.
+
+fitur yang ada pada css 3 dinamakan dengan modul.
+
+kenapa harus menggunakan css 3
+
+1. membuat website kita menjadi fleksibel dan interaktif
+2. membuat mock-up dengan cepat tanpa bantuan bahasa scripting
+3.mengurangi penggunaan gambar supaya meningkatkan kecepatan load pada halaman
+4. penggunaan selector untuk menghindari penggunaan markup yang boros,bahkan mungkin tidak lagi dibutuhkan id dan juga class 
+alasannya adalah penggunaan id dan class membuat sebuah elemen menjadi terbebani.
+
+property css 3 yangs sering digunakan :
+
+1. opacity                          11.transform (2D & 3D)
+2. RGBa & HSLa                      12. CSS Transition
+3. box-sizing                       13. CSS Animation
+4. box-shadow                       14. CSS Filter
+5. text-shadow                      15. Flexbox
+6. CSS Gradient                     16. CSS Columns
+7. background
+8. pseudo-elemen
+9. webfont
+10. media queries
+
+ada beberapa properti yang hanya berjalan di beberapa browser tertentu atau browser support
+
+untuk mengatasi, kita harus menambahkan vendor-prefixes
+
+contoh vendor prefixes
+-webkit-
+-moz-
+-ie-
+-o-
+
+
+kenapa harus menambahkan vendor prefixes?
+alasannya adalah tiap browser mempunyai karakteristik yang berbeda.
