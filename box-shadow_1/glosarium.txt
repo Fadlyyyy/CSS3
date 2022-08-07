@@ -1,0 +1,11 @@
+box Shadow
+
+properti css 3 yang gunanya memberikan bayangan pada elemen yang kita buat.
+
+
+property yang ada pada box-Shadow
+
+<x-offset></x-offset>
+<y-offset></y-offset>
+<blur></blur>
+<color></color>
