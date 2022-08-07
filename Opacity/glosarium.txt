@@ -1,0 +1,5 @@
+Opacity
+
+properti ini digunakan untuk mengatur transparansi sebuah elemen.
+
+.9 = 0.9
