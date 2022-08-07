@@ -1,0 +1,14 @@
+border Radius
+
+border radius adalah property css 3 yang fungsinya adalah membuat kotak yang kita punya ujungnya menjadi tumpul
+semakin besar border radius yang diberikan maka ujung dari kotaknya semakin tumpul.
+
+
+border radius bisa digunakan untuk masing2 sisi
+
+
+border radius bisa digunakan untuk ke 4 sisinya atau masing2 sisinya berbeda.
+
+jika diberi background image untuk div maka imagenya akan otomatis berada dibalik border radiusnya.
+
+jadi lingkaran sudah otomatis seperti frame foto.
