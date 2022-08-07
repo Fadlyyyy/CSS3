@@ -1,0 +1,20 @@
+rgba = red green blue alpha
+
+rgba digunakan untuk memberikan transparansi pada warna.
+
+alpha = transparansi 
+property ini digunakan untuk menambahkan satu buah parameter
+
+
+hsla = hue saturation lightness alpha
+
+hsla fungsinya adalah untuk memberikan warna dan transparansi tapi menggunakan nilai yang berbeda.
+
+hue = roda warna
+jika dirubah huenya ia akan merubah warnanya
+saturation
+nilainya 0-100% 
+100% artinya warnanya murni jika dikurangi hasilnya adalah warnanya akan bergerak ke warna putih
+lightness
+semakin besar nilainya ia akan semakin terang dan semakin kecil nilainya ia akan semakin gelap.
+
