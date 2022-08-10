@@ -1,0 +1,55 @@
+box Shadow
+
+properti css 3 yang gunanya memberikan bayangan pada elemen yang kita buat.
+
+
+property yang ada pada box-Shadow
+
+
+value pada parameter element box-shadow :
+
+<x-offset></x-offset>
+untuk mnegatur jarak bayangan pada sumbu horizontal padaini adalah nominalnya numerik.
+jadi jika diberi 10px maka ia akan bergerak ke kanan 100px jika diberi -10px maka ia akan bergerak ke kiri 10px.
+
+
+<y-offset></y-offset>
+
+jarak dari bayangan terhadap element secara vertikal. 
+
+
+
+<blur></blur>
+
+mirip dengan properti size pada photoshop
+blur adalah seberapa besar yang ingin diberi pada bayangan dan ingin warna apa pada bayangannya.
+blur tidak voleh minus pada angkanya pada saat ingin menambahkan blur
+
+<color></color>
+
+warna
+
+
+ada value tambahan sebagai opsional :
+
+<inset></inset>
+ini akan membuat baayangannya berada didalam kotaknya.
+semakin besar blurnya maka bayangannya akan semakin blur.
+
+
+<spread></spread>
+spread atau size ditulis sebelum RGBa
+dengan menggunakan spread kita bisa bikin bayangannya lebih kecil dari pada elemennya,
+hal inilah yang membuat spread menjadi menarik.
+contoh 
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color:green;
+    margin: 50px auto;
+t) 5px(y-offset) 10px(blur) 5px(spread) rgba(0, 0, 0, 0.75);    box-shadow: 5px(x-offse
+}
+
+multiple shadow
+bisa memberikan bayangan lebih dari 1 bayangan pada sebuah elemen.
