@@ -11,7 +11,7 @@ value yang bisa kita beri pada text-shadow ini adalah :
 
 
  text shadow lebih simple
- karena tidak mempunyai 
+ karena tidak mempunyai
  inset dan spread
 
  bisa memakai multipme shadow atau menambahkan lebih dari 1 bayangan
