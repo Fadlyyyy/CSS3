@@ -1,0 +1,76 @@
+Font Face
+
+digunakan untuk mengelola font pada css kita
+
+mengapa harus dikelola oleh css3? karena font-family mempunyai keterbatasan
+
+penggunaan font sblm Css3
+
+1. font-family
+font-family: "Arial Narrow", arial, sans-serif;
+
+jika salah tulis contoh font Arial Narrow menjadi Arial Narrows maka yang muncul adalah font arial jika arial
+
+
+font yang dipilih menggunakan font-family usahakan menggunakan font yang sudah ada dikomputer user.
+dalam artian font harus ada di sistem operasi clien/user.
+
+
+jika ingin menggunakan font yang bagus tanpa memikirkan user atau client itu punya fontnya atau tidak
+maka kamu harus menggunakan layanan dari google yakni goole fonts
+https://www.fonts/google.com
+
+pastikan jika memakai google font user wajib mempunyai koneksi internet karena font ini berasal dari server google
+
+
+cara kedua adalah google fonts
+jika google fonts tidak cukup?
+
+bisa menggunakan 
+
+@font-face
+
+
+Sintaks lengkap
+
+@font-face {
+    font-family: 'namaFontBaru';
+    src: url('lokasi/file/fontbaru.eot'); (embedded type type adalah kepanjangan dari eot)
+    src: url('lokasi/file/fontbaru.eot?#iefix') format('embedded-opentype');
+         url('lokasi/file/fontBaru.woff2')  format('woff2'), (web open file format adalah singkatan dari woff)
+         url('lokasi/file/fontBaru.woff')  format('woff'), 
+         url('lokasi/file/fontBaru.ttff')  format('truetype'), (ini adalah font standart atau yang biasa dipakai) (ttf true type font)
+         url('lokasi/file/fontBaru.svg#svgFontName')  format('svg');
+}
+
+
+Note : jika hanya punya 1 file saja misal hanya punya ttf saja user cukup menuliskan sintaks untuk ttf 1 baris saja
+itu tidak apa apa...
+
+masing masing dari font karena tipenya berbeda maka dukungan browser terhadap font tersebut juga berbeda..
+contonya font paling standart adalah ttf didukung oleh hampir semua browser namun ttf bukan spesifik digunakan untuk website
+akan jauh lebih lambat jika kalian pakai woff jadi woff lebih cepat dari ttf..
+
+
+mengapa banyak sekali sintaksnya? karena mungkin saja fontnya tipenya ada banyak..
+syarat untuk menggunakan font face adalah user harus mempunyai dulu file fontnya
+
+
+layanan fontnya
+
+fonts.google.com
+fotsquirell.com
+fontspiring.com
+webtype.com
+typhotheque.com
+...
+
+
+
+
+
+
+
+
+
+
