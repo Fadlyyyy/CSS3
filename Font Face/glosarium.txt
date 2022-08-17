@@ -68,9 +68,13 @@ typhotheque.com
 
 
 
+penjelasan mengapa harus memakai file yang woff sebagai font-face
 
-
-
+1. web open file format
+2. dikembangkan oleh mozila
+3. dibuat khusus untuk website
+4. di-load lebih cepat dari pada jenis font yang lain 
+5. merupakan kompresi dari tipe TTF / OTF
 
 
 
