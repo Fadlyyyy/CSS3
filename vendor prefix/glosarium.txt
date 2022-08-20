@@ -1,0 +1,76 @@
+vendor prefixes
+
+vendor prefixes adalah sintaks khusus yang ditambahkan untuk beberapa property Css3..
+jadi nanti akan ada beberapa property di css3 yang gaakan jalan disemua browser,
+supaya jalan atau bekerja kita harus akalin menggunakan vendor prefixes ini..
+sintaks khusus spesifik untuk tiap browser atau vendor ..
+tiap2 browser memiliki karakteristik yang berbeda2,sehingga penaganganan mereka terhadap
+css3 sedikit berbeda..
+
+
+vendor prefixes teknik di css3 yang digunakan agar sintaks css3 yang digunakan kompatible disemua browser..
+
+
+prefixes atau prefix adalah awalan pada sebuah kata dalam bahasa indonesia..
+jadi nanti kita menambahkan sebuah awalan pada property css3 yang belum disupport oleh browser tertentu..
+sedangkan vendor adalah browser yang bersangkutan..
+
+cara menambahkan vendor prefixes..
+
+-webkit-<properti-css3>
+-moz-<properti-css3>
+-ms-<properti-css3>
+-o-<properti-css3>
+
+masing2 prefix ini itu akan membuat property css3nya bekerja di browser tersebut..
+
+kenapa kita musti menambahkan prefix tersebut??
+alasannya adalah karena tidak semua browser tidak support css3..
+
+untuk saat ini : tanggal 25july 2016
+
+hubungan prefix dengan vendornya..
+
+-webkit- (chrome,safari,opera versi terbaru)
+
+-moz- (firefox)
+
+-ms- (internet Explorer)
+
+-o- (opera versi terdahulu)
+
+
+property css3 apa saja yang butuh vendor previxes?
+
+shouldiprefix.com untuk mengetahui property mana saja yang harus diberi prefixes..
+
+property berwarna hijau yang terdapat pada website tandanya tidak perlu diberi prefixes..
+sedangkan warna biru itu harus menggunakan prefixes..
+
+website lain yang bisa dikunjungi adalah..
+caniuse.com wesbite ini lebih lengkap..
+semua Property css dan html bisa dicek penggunaannya diwebsite ini..
+
+merah tandanya tidak disupport
+kuning tandanya tidak disupport secara penuh
+hijau tandanya disupport
+ada tanda hijau dengan contoh seperti ini
+-webkit- tandanya adalah disupport namun menggunakan prefix webkit..
+
+tanda angka yang terdapat pada website adalah menandakan..
+versi dari browsernya..
+
+
+wesbite ketiga adalah http://pleeease.io./play/
+website ini cukup keren jadi tidak perlu menghafal property mana saja yang
+dibutuhkan untuk menambahkan vendor prefixes .. kalian tinggal menuliskan saja 
+sintaks cssnya lalu website ini akan menerjemahkan apakah butuh vendor prefixes atau tidak..
+
+
+yang trakhir user bisa menggunakan plugin yang bernama emmet..
+
+
+
+
+
+
