@@ -1,7 +1,3 @@
-http://html5-demos-appspot.com/static/css.filters/index.html
-
-website diatas berfungsi untuk mengedit gambar misal untuk blur dan grayscalenya berupa code..
-
 
 filter
 
@@ -64,5 +60,8 @@ img {
 
 
 
+http://html5-demos-appspot.com/static/css.filters/index.html
 
+website diatas berfungsi untuk merubah banyka efek atau filter tanpa perlu bingung memikirkan valuenya apa..
+mengedit gambar misal untuk blur dan grayscalenya berupa code..
 
