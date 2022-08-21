@@ -1,0 +1,68 @@
+http://html5-demos-appspot.com/static/css.filters/index.html
+
+website diatas berfungsi untuk mengedit gambar misal untuk blur dan grayscalenya berupa code..
+
+
+filter
+
+filter adalah properti css3 yang digunakan untuk memberikan efek visual pada gambar,background atau border..
+
+
+cara menuliskannya ..
+
+filter: <tipe-filter>;
+
+filter termasuk properti css3 yang perlu menggunakan vendor prefixes..
+jadi jika ingin efeknya jalan di google chrome dan safari ... kalian harus menggunakan vendor prefixesnya -webkit- 
+
+Tiper Filter :
+
+blur berfungsi untuk membuat gambar menjadi blur.. semakin besar angkanya maka gambarnya akan semakin blur
+
+brightness berfungsi untuk mengatur gelap atau terangnya suatu gambar ..
+
+contrass berfungsi untuk mengatur gelap atau terangnya suatu gambar ..
+
+saturate berfungsi untuk mengatyr  saturasi dari sebuah gambar.. semakin besar saturatenya maka gambarnya akan semakin berwarna.. semakin kecil saturatenya maka akan semakin hilang.. sampai pada akhirnya gambarnya menjadi abu-abu..
+
+grayscale jika grayscalenya diberi nilai 100% maka ia akan menjadi abu2 ..
+
+sepia berfungsi seperti grayscale namun seperti warna kuning... dengan angka 0 yang menjadi angka defaultnya..
+
+hue-rotate atau roda warna ... merotasi atau memutar roda warna..
+
+invert berfungsi membuat gambar menjadi seperti negatif film..
+
+opacity 
+membuat elemen menjadi transparan..
+beda menggunakan filter : opacity dengan opacity :
+bedanya adalah dua hal ini ..
+dengan menggunakan filter:opacity operasi matematik tersebut menggunakan hardware kalian atau hardware acceleration
+sedangkan properti opacity: murni menggunakan kemampuan browser..
+menggunakan filter lebih cepat dibanding properti css biasa.. 
+kekurangannya ketika menggunakan filter adalah .. ada beberapa browser yang belum support..
+
+drop-Shadow 
+nilainya sama seperti box-Shadow
+ada 
+x-offsett
+y-offsett
+blurnya
+blur bayangannya
+warnanya...
+
+bedanya dengan box-shadow drop shadow sedikit lebih keren dibandingkan dengan box-shadow atau text-shadow..
+
+
+Note : 
+semua efek yang ada pada filter bisa ditumpuk penggunaannya..
+
+contoh :
+img {
+    filter : blur(5px) grayscale(100%);
+}
+
+
+
+
+
