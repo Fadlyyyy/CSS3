@@ -6,37 +6,37 @@ dari property HTML secara halus
 Perbedaan antara Transition VS Animation
 
 kedua hal ini mirip namun yang membedakan hanyalah keaadann
-awal dan keadaan akhirnya
+awal dan keadaan akhirnya..
 
 Transition adalah elemen kotak bergerak dari keadaan awal ke keaadaan akhir 
-pergerakannya dinamakan animasi namun properti cssnya dinamakan transisi
+pergerakannya dinamakan animasi namun properti cssnya dinamakan transisi..
 
 
 animasi adalah elemen kotak yang bergerak dari keadaan awal dan keadaan yang
-diantaranya dinamakan keyframe.
+diantaranya hal tersebut dinamakan keyframe...
 
 keyframe yang bisa ditambahkan itu banyak sehingga kita jadi punya
-beberapa keadaan antara.
+beberapa keadaan antara...
 
-itulah yang membedakan antara transition dan Animation.
+itulah yang membedakan antara transition dan Animation...
 
 transition
-
 [Property] <durasi> [Fungsi] [delay] ;
 mempunyai 4 buah parameter yang bisa ditulis, dari ke 4 parameter
 ada 1 parameter wajib yang ditulis yaitu adalah <durasi>
 
+note : 
+selalu tambahkan transisi dikeadaan awal..
+
 properti sisanya adalah properti opsional (boleh ditulis boleh tidak )
 
 durasi
-
-bisa diisi dengan angka dan angka tersebut memiliki satuan s / ms
+bisa diisi dengan angka dan angka tersebut memiliki satuan s / ms (second \ milli second)
 durasi ini artinya pada saat ingin merubah keadaan awal ke keadaan akhir
 durasinya ingin berapa lama.
 
 
 property
-
 property menentukan properti apa saja yang akan dilakukan transisi.
 bisa saja lebih dari 1 properti atau hanya 1 saja yang ingin diberi transisi.
 
@@ -69,3 +69,28 @@ non-animatable properti (properti yang tidak bisa dianimasikan)
 1.font-family
 2.display
 3.position
+...
+
+
+fungsi transition
+fungsi transition disebut juga sebagai timing function
+timing function atau fungsi transisi intinya adalah pergerakan apa yang akan kalian lakukan pada saat menggunakan transisi
+
+nilai pada timing function
+1. ease (default)
+2. ease-in
+3. ease-out
+4. ease-in-out
+5. linear
+6. cubic-bezier(w,x,y,z)
+
+
+delay
+berguna untuk memberikan waktu tunggu atau delay sebelum menjalankan transisi..
+
+nilainya sama seperti durasi..
+dipropertinya akan ada 2 nilai
+yang pertama durasinya..
+yang kedua waktu tunggunya..
+
+delay bisa digunakan untuk multiple transition
