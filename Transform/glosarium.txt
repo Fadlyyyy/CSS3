@@ -1,0 +1,65 @@
+Transform
+
+transform adalah properti yang memungkinkan kita agar dapat memanipulasi format visual dari elemen HTML..
+
+format visualnya macam2
+bisa ukuran,bentuk dari elemennya maupun posisi..
+
+properti transform ada 2 jenis :
+2D & 3D
+
+cara menuliskan properti transform..
+
+transform: <fungsi>;
+
+fungsinya transformasi
+
+scale
+memperbesar atau memperkecil elemen yang kita punya
+bisa menggunakan 2 parameter pada properti ini..
+contoh :
+.kotak:hover {
+    transform: scale(1.5, 2)
+}
+
+1.5 sebagai sumbu X
+dan 2 sebagai sumbu Y
+
+atau 
+
+.kotak:hover {
+    transform: scaleX(1.5), scaleY(2);
+}
+
+rotate
+memutar atau merotasi elemennya searah jarum jam
+.kotak:hover {
+    transform: rotate(360deg);
+}
+contoh jika berlawanan jarum jam
+.kotak:hover {
+    transform: rotate(-360deg);
+}
+
+penggunaan rotate apabila digabungkan lebih dari 1 properti..
+.kotak:hover {
+    transform: rotate(360deg), rotateY(80deg), rotateX(80deg);
+}
+
+
+skew
+membuat efek skew morfix membuat condong atau miring
+
+
+translate
+mengubah posisi dari sebuah elemen.. mirip dengan scale..
+dengan menggunakan translate ini tidak akan memengaruhi elemen disekitarnya.. beda dengan margin..
+
+apa bedanya dengan position-absolute..
+efek yang dihasilkan sama saja namun jika menggunakan translate itu performancenya jauh lebih baik dari pada menggunakan position..
+
+sama seperti filter properti transform ini menggunakan akselerasi dari hardware atau 
+hardware acceleration...
+jadi yang bekerja adalah gpu atau vga card..
+
+bisa digunakan dengan 2 properti
