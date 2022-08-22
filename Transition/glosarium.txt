@@ -93,4 +93,4 @@ dipropertinya akan ada 2 nilai
 yang pertama durasinya..
 yang kedua waktu tunggunya..
 
-delay bisa digunakan untuk multiple transition
+delay bisa digunakan untuk multiple transition..
