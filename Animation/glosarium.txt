@@ -1,0 +1,103 @@
+Animation
+
+kita bisa melakukan animasi dengan 2 cara yaitu menggunakan :
+properti transition dan properti Animation
+
+didalam animation memiliki beberapa keadaan..
+tidak seperti transition yang hanya memiliki 2 keadaan saja.. yakni awal dan akhir..
+
+menggunakan animation kita mempunyai yang namanya adalah keyframe.. 
+bisa membuat keadaan antaranya..
+
+animation ada pada keyframe..
+
+sintanks keyframe pada animatio : 
+
+@keyframes [name] {
+    
+    from {
+        [property-css]
+    }
+
+    to {
+        [property-css]
+    }
+}
+
+
+contoh :
+@keyframes animasiKotak {
+    from {
+        width:200px;
+    }
+    to {
+        width: 500px;
+    }
+}
+
+atau 
+
+@keyframes animasiKotak {
+    0% {
+        width:200px;
+    }
+    100% {
+        width: 500px;
+    }
+}
+
+from adalah keadaan awal dan to adalah keadaan akhir..
+namun from dan to bisa diganti dengan % agar keyframenya tidak hanya 2 saja namun bisa banyak..
+
+nilai yang bisa diberi kedalam property animation : 
+
+[name] 
+wajib ada!
+name adalah nama dari animasinya yang harus sama dengan nama keyframesnya yang sudah dibuat..
+
+[duration] 
+durasi dari animasinya.. 
+[timing-function] 
+[delay]
+
+duration,timing function dan delay itu persis sama dengan transition..
+[iteration-count] (bisa kasih angka atau infinite)
+bisa kasih angka .. diulang berapa kali atau diulang terus menerus dengan menggunakan infinite..
+
+[direction] 
+secara default nilainya adalah normal.. jadi animasinya akan berjalan dari awal sampai akhir..
+nilai yang lainnya adalah : 
+normal | reverse (akhir ke awal) | alternate (dia akan berganti2, dari awal sampai akhir lalu dari akhir ke awal (mirip seperti looping) ) | alternate-reverse (dari akhir ke awal lalu dari awal ke akhir..)
+
+
+
+[fill-mode] 
+untuk menentukan akhir dari transisi seperti apa..
+jika ingin transisinya tidak kembali loncat langsung ke posisi awal kamu bisa menggunakan forwards
+nilai dari fill-mode :
+none | forwards | backwards | both
+
+[play-state]
+
+nilai dari playstate :
+running (default)
+animasi berjalan sebagaimana mestinya..
+
+paused
+memberhentikan animasinya..
+biasanya digunakan ketika menggunakan javascript.. supaya bisa berhenti ditengah2 animasi..
+
+
+animation: animasiKotak 2s ease infinite;
+
+sintaks diatas adalah short hand atau property singkatannya.. semakin
+
+animation-name: animasiKotak;
+animation-duration: 2s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+
+jika belum paham bisa menggunakan satu persatu sintaks diatas namun jika sudah paham mengenai animation bisa menggunakan short hand..
+
+
+
