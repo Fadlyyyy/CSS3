@@ -1,0 +1,22 @@
+light box
+
+light box adalah sebuah galeri yang dibuat menggunakan java script.
+light box dibuat oleh lokesh dhakar..
+
+galerinya ada serangkaian thumbnail, yang jika thumbnail tersebut diclick
+itu akan menampilkan gambar dengan ukuran besar..
+
+jika ingin membuat light box dengan html dan css
+kalian musti menyiapkan gambar..
+1. fullsize ukuran 600 X 800px
+2. thumbnail 120 x 120px
+
+font bebas neue di link font squirell dengan woff
+
+
+struktur folder agar rapih penyimpnananya..
+
+div class overlay adalah lapisan warna hitam transparan yang mengelilingi gambar..
+
+
+
